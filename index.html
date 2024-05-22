@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SWAStyle.css">
+    <title>Traka</title>
+</head>
+<body>
+    <header><h1>Arriba el cruz azul</h1></header>
+
+
+
+
+<!-- <div class="imagenesPerfil">
+    <img src="/IMGs/7a548ffbe5ab1d5921faf149c78fbdb2.jpg" alt="" id="fotoPerfil">
+    <img src="/IMGs/Gaming_5000x3125.jpg" alt="" id="fotoPortada">
+</div> -->
+
+
+<form action="">
+   <div id="inputs">
+    <h2>Registrar Usuarios</h2>
+        <label for="name">Nombre</label>
+        <input type="text" id="name"> 
+
+        <label for="username">Usuario</label>
+        <input type="text" id="username">   
+
+        <label for="website">Página web</label> 
+        <input type="url" id="website">  
+
+        <label for="Email">Email</label> 
+        <input type="email" id="email">
+
+        <input type="submit" id="addBtn" value="Registrar">
+
+        <h3>¡Busqueda por nombre de usuario!</h3>
+        <p id="searchList"></p>
+        <input type="submit" id="searchBtn" value="Buscar">
+        <p id="announce"> </p>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Nombre de Usuario</th>
+                    <th scope="col">Página Web</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody id="tbl" class="tbl">
+
+            </tbody>
+        </table>
+    </div>
+</form>
+        
+    <h2>Busqueda de posts</h2>
+<form action="">
+    <div id="postsInputs">
+        <label for="userId">Id de Usuario</label>
+        <input type="text" id="searchPost">
+        <input type="submit" value="Buscar" id="postBtn">
+        <input type="submit" value="Limpiar" id="clearBtn">
+        <p id="listPost"></p>
+        <h3>¡Haz un post!</h3>
+        <label for="postTitle">Titulo del post</label>
+        <input type="text" id="newPostTitle">
+        <label for="postBody">¿Qué estás pensando?</label>
+        <input type="text"  id="newPost">
+        <input type="submit" value="Publicar" id="newPostBtn">
+        <input type="submit" value="Limpiar" id="clearPostsBtn">
+        <!-- <input type="text" id="newUserPosts"> -->
+    </div>
+</form>
+    
+</body>
+<script src="users.js" type="module"></script>
+<script src="posts.js" type="module"></script>
+</html>

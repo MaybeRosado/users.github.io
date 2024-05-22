@@ -1,0 +1,104 @@
+
+
+
+input{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: #aa0404;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+h1{
+    color: rgb(39, 77, 126);
+    
+}
+
+p{
+    font-size: large;
+    
+}
+
+.tbl{
+    text-align: center;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    
+  }
+
+  th{
+    background-color: #aa0404;
+
+  }
+
+  .h3Post{
+    border-style: solid;
+    border-color: #aa0404;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+  }
+
+  .postsBody{
+    font-family: sans-serif;
+
+  }
+
+  /* .imagenesPerfil{
+    position: relative;
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  }
+
+  .imagenesPerfil #fotoPerfil{
+    position: absolute;
+    border-color: #030202;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    background-size: cover;
+    z-index: 1;   
+    padding: 12px, 20px; 
+    
+  } */
+
+  /* .imagenesPerfil #fotoPortada{
+    position: absolute;
+  top: 0;
+  left:60px;
+  width: 200%;
+  height: 70%;
+  background-size: cover;
+  z-index: 0;
+  padding: 12px, 20px;
+  } */
+
+  label{
+    display: block;
+    
+  }
+
+  
