@@ -42,7 +42,7 @@ const cleanInputs = () => {
 
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault()
-    let input = Number(searchPost.value)
+    let input = searchPost.value
 
     let value = publicaciones.search(input);
     console.log(value)
