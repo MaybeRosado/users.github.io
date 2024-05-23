@@ -1,10 +1,17 @@
  const posts = [
     {
-    "userId": 1,
-    "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "userId": "Juanito",
+    "title": "Mi película favorita",
+    "body": "'Incendies' del director Denis Villeneuve es un drama cautivador que te atrapa desde el principio y te lleva a un viaje emocionalmente denso a través de la guerra, el amor, la pérdida y la identidad. La historia sigue a dos hermanos gemelos, Jeanne y Simon, que se embarcan en una búsqueda para descubrir la verdad sobre su pasado después de la muerte de su madre.",
     },
+
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+    ,
     {
     "userId": 1,
     "id": 2,
